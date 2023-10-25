@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'synagogueKolTorah';
+  slides = [
+    {
+      url: 'https://source.unsplash.com/1600x900/?nature,water'
+    },
+    {
+      url: 'https://source.unsplash.com/1600x1600/?nature,forest'
+    }
+  ]
 }

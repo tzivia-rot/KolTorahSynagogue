@@ -1,0 +1,4 @@
+mat-card{
+    height: calc(vh-40px);
+    padding: 10px;
+}
