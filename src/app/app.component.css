@@ -1,0 +1,9 @@
+.app {
+    header {
+        flex: auto;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
