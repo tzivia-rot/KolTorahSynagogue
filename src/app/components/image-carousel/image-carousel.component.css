@@ -7,13 +7,20 @@
     flex-direction: column;
     height: calc(vh);
   }
-  
   .image-carousel img {
     max-width: 100%;
     height: auto;
   }
-  
   .image-carousel button {
     margin-top: 10px;
+  }
+  .carousel-button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .carousel-image {
+    width: calc(vw); 
+    height: calc(vh-10px);
   }
   

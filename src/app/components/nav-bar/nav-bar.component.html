@@ -1,7 +1,8 @@
-<mat-toolbar color="primary">
+<mat-toolbar>
+  <img ngClass="img">
   <mat-toolbar-row>
-    <button mat-raised-button color="accent">תרום עכשיו</button>
-    <app-tab class="full-width-tab"></app-tab>  </mat-toolbar-row>
-    <img ngClass="img" >
+    <app-donation-button></app-donation-button>
+    <app-tab class="full-width-tab"></app-tab> 
+  </mat-toolbar-row>
 </mat-toolbar>
 <router-outlet></router-outlet>

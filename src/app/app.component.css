@@ -1,14 +1,12 @@
 .app {
     text-align: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
     header {
         flex: auto;
-        overflow-x: hidden;
-        padding: 20px;
     }
     main {
-        padding: 20px;
         overflow: hidden;
-        overflow-x: hidden;
         display: flex;
         flex-direction: column;
         
