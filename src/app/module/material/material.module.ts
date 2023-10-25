@@ -5,7 +5,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatCardModule} from '@angular/material/card';
-// import { NgImageSliderModule } from 'ng-image-slider';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 const modules=[
   MatToolbarModule,
@@ -13,7 +13,7 @@ const modules=[
   MatButtonModule,
   MatTabsModule,
   MatCardModule,
-  // NgImageSliderModule
+  MatGridListModule
 ]
 
 @NgModule({

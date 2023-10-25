@@ -1,0 +1,10 @@
+<div class="image-carousel">
+    <img [src]="images[currentIndex]" [alt]="'Image ' + (currentIndex + 1)">
+    <button (click)="previousImage()">
+      <mat-icon>chevron_left</mat-icon>
+    </button>
+    <button (click)="nextImage()">
+      <mat-icon>chevron_right</mat-icon>
+    </button>
+  </div>
+  

@@ -1,0 +1,19 @@
+.image-carousel {
+    height: 100vh; 
+    width: 100vw; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(vh);
+  }
+  
+  .image-carousel img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .image-carousel button {
+    margin-top: 10px;
+  }
+  

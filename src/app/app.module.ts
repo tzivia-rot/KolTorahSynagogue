@@ -9,6 +9,9 @@ import { CardComponent } from './components/card/card.component';
 import { MaterialModule } from './module/material/material.module';
 import { CardListComponent } from './components/card-list/card-list.component';
 import { FormsModule } from '@angular/forms';
+import { ImageCarouselComponent } from './components/image-carousel/image-carousel.component';
+import { DonationButtonComponent } from './components/donation-button/donation-button.component';
+import { AboutCardComponent } from './components/about-card/about-card.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +20,9 @@ import { FormsModule } from '@angular/forms';
     TabComponent,
     CardComponent,
     CardListComponent,
+    ImageCarouselComponent,
+    DonationButtonComponent,
+    AboutCardComponent,
    
   ],
   imports: [
