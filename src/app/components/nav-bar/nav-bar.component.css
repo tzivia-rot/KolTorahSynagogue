@@ -1,9 +1,18 @@
 .navbar-title {
     font-size: 20px;
-    font-weight: bold;
-    margin-left: 10px;
+    /* font-weight: bold; */
+    margin-left: 5%;
+    color: black;
   }
-  
   .spacer {
     flex: 1 1 auto;
+  }
+  .nav-bar{
+    background-color: #f3ebeb;
+  }
+  .mat-raised-button{
+    color: #fff;
+    font-size: 20px;
+
+    background-color: rgb(52, 32, 97);
   }
