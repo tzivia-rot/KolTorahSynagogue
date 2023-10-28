@@ -1,9 +1,14 @@
 .card-list {
-    display:block;
+    display:grid;
+    /* grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
     gap: 20px; 
+    background: linear-gradient(0deg, #17324e 0%, #17324e 33.33%, #fff 33.33%, #fff 66.66%, #17324e 66.66%, #17324e 100%);
+    background-size: 100% 100%;
   }
   
-  app-card {
-    padding: 20px;
-  }
-  
+app-card {
+  padding: 20px;
+}

@@ -1,5 +1,6 @@
 <div class="card-list">
-        <ng-container *ngFor="let card of cardData">
+
+        <ng-container *ngFor="let card of cardData" >
             <app-card [title]="card.title" [content]="card.content" [image]="card.imageUrl"></app-card>
           </ng-container>
   </div>
