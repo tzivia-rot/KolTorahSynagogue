@@ -12,6 +12,7 @@ import { FormsModule } from '@angular/forms';
 import { ImageCarouselComponent } from './components/image-carousel/image-carousel.component';
 import { DonationButtonComponent } from './components/donation-button/donation-button.component';
 import { AboutCardComponent } from './components/about-card/about-card.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { AboutCardComponent } from './components/about-card/about-card.component
     ImageCarouselComponent,
     DonationButtonComponent,
     AboutCardComponent,
+    FooterComponent,
    
   ],
   imports: [

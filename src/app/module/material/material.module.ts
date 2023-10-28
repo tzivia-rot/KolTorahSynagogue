@@ -7,13 +7,16 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatCardModule} from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
 
+
+
 const modules=[
   MatToolbarModule,
   MatIconModule,
   MatButtonModule,
   MatTabsModule,
   MatCardModule,
-  MatGridListModule
+  MatGridListModule,
+  
 ]
 
 @NgModule({
